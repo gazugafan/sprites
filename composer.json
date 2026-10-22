@@ -1,0 +1,22 @@
+{
+	"name": "gazugafan/sprites",
+	"description": "8-bit pixel sprite generator for avatars. PHP port of danielgjackson/sprite.",
+	"type": "library",
+	"keywords": ["sprite", "avatar", "identicon", "pixel-art", "bmp"],
+	"homepage": "https://github.com/gazugafan/sprites",
+	"license": "MIT",
+	"require": {
+		"php": ">=8.0"
+	},
+	"suggest": {
+		"ext-mbstring": "Needed to hash non-ASCII seeds identically to the JavaScript original (iconv also works)"
+	},
+	"autoload": {
+		"psr-4": {
+			"Gazugafan\\Sprites\\": "src/"
+		}
+	},
+	"config": {
+		"sort-packages": true
+	}
+}
