@@ -20,7 +20,7 @@ use DateTimeZone;
  * JavaScript's 32-bit integer semantics and UTF-16 string handling).
  *
  * Usage:
- *   use Kencation\Sprite\Sprite;
+ *   use Gazugafan\Sprites\Sprite;
  *
  *   $bmp = Sprite::generate($seed)->magnify(12)->asBitmapData();   // raw .bmp bytes
  *   $uri = Sprite::generate($seed)->asDataUri();                   // data: URI
